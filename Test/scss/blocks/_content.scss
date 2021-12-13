@@ -1,0 +1,110 @@
+.content{
+    grid-column: 5 / 12;
+    .bread-crumbs{
+        margin-bottom: 40px;
+        display: flex;
+
+        &__item{
+            margin-right: 3px;
+            &:last-child{
+                margin-right: 0;
+                color:$dark-color;
+            }
+        }
+
+        &__link{
+            color:$dark-color;
+            font-size: 14px;
+        }
+
+        .disabled{
+            color:$disabled-color;
+        }
+        
+    }
+}
+
+.training{
+    display: flex;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.05);
+    
+}
+
+.exams {
+    border-left:8px solid $primary-color;
+    border-radius: 5px;
+    padding:25px 15px 42px 33px;
+    &__title{
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    &__description{
+        max-width: 338px;
+        font-size: 15px;
+        line-height: 22px;
+        color:$grey-800;
+        margin-bottom: 10px;
+    }
+
+    &__price{
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-bottom: 20px;
+
+        .price{
+            font-size: 40px;
+            font-weight: 500;
+            margin-right: 10px;
+            margin-left: 10px;
+
+            &__description{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 18px;
+                color: $grey-800;
+            }
+        }
+    }
+    
+
+    .courses{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .total{
+            font-size: 40px;
+            font-weight: 500;
+            margin-right: 10px;
+            margin-left: 10px;
+
+            &__description{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 18px;
+                color: $grey-800;
+                margin-right: 27px;
+
+                &:last-child{
+                    margin-right: 0;
+                }
+            }   
+        }
+        .last{
+            margin-left: 20px;
+        }
+    }
+
+}
+
+.teacher{
+    background-color: $grey-500;
+    border-radius: 5px;
+
+
+    &__img{
+        object-fit: fill;
+    }
+}

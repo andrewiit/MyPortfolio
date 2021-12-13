@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="flex-row">
+                <div class="burger">
+                    <span class="burger__item"></span><span class="burger__item"></span>
+                </div>
+                <div class="header__logo"><img src="./img/logo.svg" alt="logo"></div>
+                <div class="progress">
+                    <div class="progress__bar"><img src="./img/progress.svg" alt=""></div>
+                    <a href="#"><div class="progress__user"><img src="./img/student.png" alt="" class="progress__user-img"></div></a>
+                </div>
+                <div class="header__buttons">
+                    <button class="header__buttons-button btn btn_purple">Рейтинг</button>
+                    <button class="header__buttons-button btn btn_purple">Оплатить</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="page">
+        <div class="container">
+            <section class="task">
+                <h2 class="task__title">Математическая вертикаль 2022</h2>
+                <ul class="task__list">
+                    <li class="task__item"><a href="" class="task__link task__link_active">Приветствие</a></li>
+                    <li class="task__item"><a href="" class="task__link">Задание 1-3</a><div><span class="from">0</span><span class="to">/20</span></div></li>
+                    <li class="task__item"><a href="" class="task__link">Задание 4</a><div><span class="from">0</span><span class="to">/15</span></div></li>
+                    <li class="task__item"><a href="" class="task__link">Задание 5</a><div><span class="from">0</span><span class="to">/5</span>&nbsp;&nbsp;</div></li>
+                    <li class="task__item"><a href="" class="task__link">Задание 6</a><div><span class="from">0</span><span class="to">/5</span>&nbsp;&nbsp;</div></li>
+                    <li class="task__item"><a href="" class="task__link">Задание 7</a><div><span class="from">0</span><span class="to">/3</span>&nbsp;&nbsp;</div>
+                    </li>
+                    <ul class="task__sublist">
+                        <li class="task__item"><a href="" class="task__link disabled">Трудные случаи</a><div><i class="fas fa-lock"></i>&nbsp;<i class="fas fa-check"></i></div></li>
+                        <li class="task__item"><a href="" class="task__link disabled">Тестовые задания (часть 1)</a><div><i class="fas fa-lock"></i>&nbsp;<i class="fas fa-check"></i></div></li>
+                        <li class="task__item"><a href="" class="task__link disabled">Тестовые задания (часть 2)</a><div><i class="fas fa-lock"></i>&nbsp;<i class="fas fa-check"></i></div></li>
+                    </ul>
+                    <li class="task__item"><a href="" class="task__link">Задание 11</a><div><span class="from">0</span><span class="to">/5</span>&nbsp;&nbsp;</div></li>
+                    <li class="task__item hide"><a href="" class="task__link">Задание 12</a><div><span class="from">0</span><span class="to">/5</span>&nbsp;&nbsp;</div></li>
+                    <li class="task__item"><a href="" class="task__link">Задание 13</a><div><span class="from">0</span><span class="to">/9</span>&nbsp;&nbsp;</div></li>
+                    <li class="task__item"><a href="" class="task__link">Задание 14</a><div><span class="from">0</span><span class="to">/8</span>&nbsp;&nbsp;</div></li>
+                    <li class="task__item"><a href="" class="task__link">Задание 15</a><div><span class="from">0</span><span class="to">/2</span>&nbsp;&nbsp;</div></li>
+                </ul>
+            </section>
+            <section class="content">
+                <ul class="bread-crumbs">
+                    <li class="bread-crumbs__item"><a href="" class="bread-crumbs__link disabled">Главная /</a></li>
+                    <li class="bread-crumbs__item"><a href="" class="bread-crumbs__link disabled">Математическая вертикаль /</a></li>
+                    <li class="bread-crumbs__item"><a href="" class="bread-crumbs__link">Легендарный старт</a></li>
+                </ul>
+                <div class="training">
+                    <div class="exams">
+                            <h2 class="exams__title">“МатВертикаль”<br/> подготовка к экзамену</h2>
+                            <p class="exams__description">Курс поможет поступить в престижный класс и
+                                получать пятёрки по математике</p>
+                            <div class="exams__price">
+                                <img src="./img/rouble.png" alt=""><span class="price">4 990 ₽</span>
+                                <div>
+                                <span class="price__description">стоимость<br/> за весь курс</span></div>
+                            </div>
+                            <div class="courses">
+                                <img src="./img/play.png" alt=""><span class="total">90</span><div><span class="total__description">видео</br> в курсе</span></div>
+                                <img src="./img/sucesess.png" alt="" class="last"><span class="total">750</span><div><span class="total__description">проверочных<br/> тестов</span></div>
+                            </div>
+                            <div class="exams__buttons">
+                                <button class="exams__buttons-button btn btn_blue">Купить</button>
+                                <button class="exams__buttons-button btn btn_blue-nobg">Попробовать бесплатно</button>
+                            </div>
+
+                        </div>
+                    <div class="teacher">
+                        <img class="teacher__img" src="./img/teacher.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

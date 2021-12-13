@@ -1,0 +1,65 @@
+.sidebar {
+    min-width: 200px;
+    padding-top: 51px;
+    padding-right: 40px;
+    &__icons{
+        width: 27px;
+        height: 27px;
+        margin-right: 11px;
+        
+    }
+    .logo{
+        margin-bottom: 57px;
+    }
+
+    &__title{
+        font-size: 30px;
+        line-height: 1.5;
+        font-weight: bold;
+        margin-bottom: 44px;
+    }
+
+    &__menu{
+        list-style-type: none;
+
+        &-item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+
+            &-link{
+                position:relative;
+                font-size: 16px;
+                line-height: 1.5;
+                text-decoration: none;
+                @include underline-effect($yellow);
+            }
+        }
+    }
+
+    &__help{
+        display: flex;
+        align-items: center;
+        &_img{
+            position: relative;
+            width: 47px;
+            height: 47px;
+            background-color: #F6F6F6;
+            border-radius: 50%;
+            margin-right: 17px;
+
+            img{
+               @include center-center;
+            }
+        }
+        &_link{
+            position: relative;
+            @include underline-effect($black);
+        }
+    }
+
+    
+}

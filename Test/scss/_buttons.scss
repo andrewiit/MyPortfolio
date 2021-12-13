@@ -1,0 +1,66 @@
+.btn {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding:15px 0px;
+    border-radius:39px;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    background:transparent;
+    transition: all 0.4s ease;
+
+    &_purple{
+        background-color:$purple-dark;
+        color:$light-color;
+
+        &-nobg{
+            background: transparent;
+            border: 2px solid $purple-dark;
+        }
+    }
+    &_yellow{
+        background-color:$secondary-color;
+        color:$dark-color;
+
+        &-nobg{
+            background: transparent;
+            border: 2px solid $secondary-color;
+        }
+    }
+    &_grey{
+        background-color:$grey-400;
+        color:$dark-color;
+
+        &-nobg{
+            background: transparent;
+            border: 2px solid $grey-400;
+        }
+    }
+    &_blue{
+        background-color: $primary-color;
+        color:$light-color;
+
+        &-nobg{
+            background: transparent;
+            border: 2px solid $primary-color;
+            color:$primary-color;
+        }
+    }
+    &:hover{
+        opacity: 0.9;
+        filter: drop-shadow(0px 0px 8px #4444dd);
+    }
+}
+
+.no-border{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0;
+    border:none;
+    outline: none;
+    background: transparent;
+    color:$purple-light;
+}

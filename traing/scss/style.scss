@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#EEECEE;
+    
+    
+}
+
+.wrapper {
+    width: 1170px;
+    margin:0 auto;
+    background-color: #000;
+}
+.container {
+    display: grid;
+    grid-template: auto/ repeat(5,1fr);
+    
+     
+}
+.i {
+    width: 20%;
+}
+img {
+    margin:5px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+

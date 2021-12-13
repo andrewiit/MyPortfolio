@@ -1,0 +1,22 @@
+- var menuValues = ['Главная','О нас','Контакты','Галерея','Отзывы'];
+- var menuFooter = ['Главная','О нас','Контакты','Галерея','Отзывы'];
+- var mainTitle = 'MainPage';
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title mainTitle
+    body
+        ul.menu
+            each value in menuValues 
+                li.menu__item
+                    a.menu__link #{value}
+        
+        ul.menu-footer 
+            each value in menuFooter 
+                li.menu-footer__item 
+                    a.menu-footer__link #{value}
+                    
